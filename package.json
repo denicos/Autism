@@ -1,0 +1,32 @@
+{
+  "name": "autism",
+  "version": "1.0.0",
+  "description": "autism decision support system",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denicos/Autism.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/denicos/Autism/issues"
+  },
+  "homepage": "https://github.com/denicos/Autism#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.1"
+  },
+  "dependencies": {
+    "express": "^4.18.1",
+    "express-handlebars": "^6.0.6",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.4.6",
+    "nodemon": "^2.0.19",
+    "passport": "^0.6.0",
+    "passport-local-mongoose": "^7.1.2"
+  }
+}
